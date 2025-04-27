@@ -1,19 +1,17 @@
-# Node.js (React frontend)
+# Flask
+__pycache__/
+*.pyc
+instance/
+.env
+
+# React
 node_modules/
 build/
 dist/
 .env
 
-# Python (Flask backend)
-__pycache__/
-*.pyc
-instance/
-.env
-venv/
-*.db
-
-# Mac system files
+# MacOS
 .DS_Store
 
-# VS Code settings
-.vscode/
+# Windows
+Thumbs.db
